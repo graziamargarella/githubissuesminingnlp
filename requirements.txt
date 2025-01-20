@@ -1,0 +1,13 @@
+pandas
+requests
+tqdm 
+octis
+scipy
+kaleido
+bertopic
+nltk
+sentence_transformers
+torch
+transformers
+datasets
+plotly
