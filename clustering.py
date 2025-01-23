@@ -152,7 +152,7 @@ def visualizations(X, labels, file_name_plot1, cluster_means, file_name_plot2):
     #fig.show() 
 
     plt.figure(figsize=(30, 20))
-    sns.heatmap(cluster_means.T, cmap="coolwarm", annot=True, fmt=".2f")
+    sns.heatmap(cluster_means.T, cmap="coolwarm", annot=True, fmt=".2f", vmax=3)
     sns.set_theme(font_scale=20)
     plt.xlabel('Cluster')
     plt.ylabel('Feature')
